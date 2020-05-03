@@ -84,10 +84,10 @@ void setup() {
      delay(pauseBetweenNotes);
      
      //Used serial moniter to know the freq value of each note
-    //  Serial.println(melody[thisNote);
-      Serial.println(pauseBetweenNotes);
+      Serial.println(melody[thisNote);
+   
       
-    //light every led with amount of voltage that represent the frquancie of note
+    //light every led with amount of voltage that represent the frequancy of note
     if(melody[thisNote]>400&&melody[thisNote]<500){
      analogWrite(6,melody[thisNote]);
      delay(15);
